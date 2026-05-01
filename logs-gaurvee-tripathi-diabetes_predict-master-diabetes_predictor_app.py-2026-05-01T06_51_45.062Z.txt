@@ -1,0 +1,111 @@
+
+[     UTC     ] Logs for diabetespredict-jjusodg4xyhqnau5j6ctxg.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[06:46:13] 🚀 Starting up repository: 'diabetes_predict', branch: 'master', main module: 'diabetes_predictor_app.py'
+[06:46:13] 🐙 Cloning repository...
+[06:46:13] 🐙 Cloning into '/mount/src/diabetes_predict'...
+
+[06:46:13] 🐙 Cloned repository!
+[06:46:13] 🐙 Pulling code changes from Github...
+[06:46:13] 📦 Processing dependencies...
+Check if streamlit is installed
+cat: /mount/admin/install_path: No such file or directory
+
+──────────────────────────────── Installing Streamlit ──────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.4 environment at /home/adminuser/venv
+Resolved 42 packages in 403ms
+Prepared 42 packages in 1.57s
+Installed 42 packages in 80ms
+ + altair==6.1.0
+ + anyio==4.13.0
+ + attrs==26.1.0
+ + blinker==1.9.0
+ + cachetools==7.0.6
+ + certifi==2026.4.22
+ + charset-normalizer==3.4.7
+ + click[2026-05-01 06:46:16.259517] ==8.3.3
+ + gitdb==4.0.12
+ + gitpython==3.1.49
+ + h11==0.16.0
+ + httptools==0.7.1
+ + idna==[2026-05-01 06:46:16.259785] 3.13
+ + itsdangerous==2.2.0
+ + jinja2==3.1.6
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1[2026-05-01 06:46:16.259946] 
+ + markupsafe==3.0.3
+ + narwhals==2.20.0
+ + numpy==2.4.4
+ + packaging==26.2
+ + pandas==3.0.2
+ + pillow==12.2.0
+ + protobuf==7.34.1
+ + pyarrow==24.0.0
+ + pydeck[2026-05-01 06:46:16.260321] ==0.9.2
+ + python-dateutil==2.9.0.post0
+ + python-multipart==0.0.27
+ + referencing==0.37.0
+ + requests==[2026-05-01 06:46:16.260466] 2.33.1
+ + rpds-py==0.30.0
+ + six==1.17.0
+ + smmap==5.0.3
+ + starlette[2026-05-01 06:46:16.260682] ==1.0.0
+ + streamlit==1.57.0
+ + tenacity==9.1.4
+ + toml[2026-05-01 06:46:16.260839] ==0.10.2
+ + typing-extensions==4.15.0
+ + urllib3==2.6.3
+ + uvicorn==0.46.0
+ [2026-05-01 06:46:16.260959] + watchdog==6.0.0
+ + websockets==16.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[06:46:16] 📦 Processed dependencies!
+cat: /mount/admin/install_path: No such file or directory
+2026-05-01 06:46:18.478 Uvicorn server started on 0.0.0.0:8501
+
+
+
+2026-05-01 06:46:25.313 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/diabetes_predict/diabetes_predictor_app.py", line 2, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+2026-05-01 06:46:28.416 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/diabetes_predict/diabetes_predictor_app.py", line 2, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+2026-05-01 06:46:29.976 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/diabetes_predict/diabetes_predictor_app.py", line 2, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+2026-05-01 06:47:34.829 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/diabetes_predict/diabetes_predictor_app.py", line 2, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
